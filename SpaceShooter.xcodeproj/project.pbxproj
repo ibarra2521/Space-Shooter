@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4121435D1C67F6D400AEE20F /* Explorion1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4121435B1C67F6D400AEE20F /* Explorion1.sks */; };
+		4121435E1C67F6D400AEE20F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4121435C1C67F6D400AEE20F /* spark.png */; };
+		412143601C67FBF700AEE20F /* Explotion2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4121435F1C67FBF700AEE20F /* Explotion2.sks */; };
 		41CB7F921C6512A100D8E376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CB7F911C6512A100D8E376 /* AppDelegate.swift */; };
 		41CB7F941C6512A100D8E376 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 41CB7F931C6512A100D8E376 /* GameScene.sks */; };
 		41CB7F961C6512A100D8E376 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CB7F951C6512A100D8E376 /* GameScene.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4121435B1C67F6D400AEE20F /* Explorion1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explorion1.sks; sourceTree = "<group>"; };
+		4121435C1C67F6D400AEE20F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		4121435F1C67FBF700AEE20F /* Explotion2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explotion2.sks; sourceTree = "<group>"; };
 		41CB7F8E1C6512A100D8E376 /* SpaceShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41CB7F911C6512A100D8E376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41CB7F931C6512A100D8E376 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				41CB7F9C1C6512A100D8E376 /* Assets.xcassets */,
 				41CB7F9E1C6512A100D8E376 /* LaunchScreen.storyboard */,
 				41CB7FA11C6512A100D8E376 /* Info.plist */,
+				4121435F1C67FBF700AEE20F /* Explotion2.sks */,
+				4121435B1C67F6D400AEE20F /* Explorion1.sks */,
+				4121435C1C67F6D400AEE20F /* spark.png */,
 			);
 			path = SpaceShooter;
 			sourceTree = "<group>";
@@ -129,8 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41CB7F941C6512A100D8E376 /* GameScene.sks in Resources */,
+				4121435E1C67F6D400AEE20F /* spark.png in Resources */,
 				41CB7FA01C6512A100D8E376 /* LaunchScreen.storyboard in Resources */,
 				41CB7F9D1C6512A100D8E376 /* Assets.xcassets in Resources */,
+				4121435D1C67F6D400AEE20F /* Explorion1.sks in Resources */,
+				412143601C67FBF700AEE20F /* Explotion2.sks in Resources */,
 				41CB7F9B1C6512A100D8E376 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +304,7 @@
 				41CB7FA61C6512A100D8E376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
